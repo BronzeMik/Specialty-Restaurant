@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/stylesheet.css" >
+    <title>Xmas Bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&family=Mountains+of+Christmas:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav>
+        <!--Logo-->
+        <div class="logo-container">
+            <img src="styles/images/logo.png" alt="xmas bar logo" class="logo" />
+            <img src="/styles/images/hamburger-menu.jpg" alt="hamburger menu" class="hamburger-menu inline" id="hamburger-menu" role="button">
+            <img src="/styles/images/exit-menu.png" alt="exit menu" class="exit-menu hidden" id="exit-menu" role="button">
+
+        </div>
+
+        <!--Menu Items-->
+        <div class="menu" id="menu">
+            <ul id="desktop">
+                <li class="menu-item"><a href='#home'>Home</a></li>
+                <li class="menu-item"><a href='https://static1.squarespace.com/static/652ffa5a2f57f8485b324547/t/6560ff4d7b021336a70cff7e/1700855629336/Xmas+Bar+Menu+CLE.pdf'>Menu</a></li>
+                <li class="menu-item"><a href='https://static1.squarespace.com/static/652ffa5a2f57f8485b324547/t/6560ff4d7b021336a70cff7e/1700855629336/Xmas+Bar+Menu+CLE.pdf'>Specials</a></li>
+                <li class="menu-item"><a href='https://www.xmasbar.com/cleveland'>Contact</a></li>
+            </ul>
+            
+
+        </div>
+        
+
+        <!--Reservation Button-->
+        <div class="nav-cta">
+           <button class="nav-cta-btn" id="pop-up-open">Book Your Event</button>
+        </div>
+    </nav>
+    <ul class="hidden slideDown" id="mobile">
+        <li class="menu-item"><a href='#home'>Home</a></li>
+        <li class="menu-item"><a href='https://static1.squarespace.com/static/652ffa5a2f57f8485b324547/t/6560ff4d7b021336a70cff7e/1700855629336/Xmas+Bar+Menu+CLE.pdf'>Menu</a></li>
+        <li class="menu-item"><a href='https://static1.squarespace.com/static/652ffa5a2f57f8485b324547/t/6560ff4d7b021336a70cff7e/1700855629336/Xmas+Bar+Menu+CLE.pdf'>Specials</a></li>
+        <li class="menu-item"><a href='https://www.xmasbar.com/cleveland'>Contact</a></li>
+    </ul>
+
+
+
+    <!--Hero-->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-content">
+                <h2>Enjoy Our Specialty Christmas Themed Cocktails</h2>
+                <p>Celebrate the festive season in style at our Christmas-themed bar, where we've curated a sensational lineup of holiday-inspired cocktails that are sure to dazzle your taste buds. Immerse yourself in the warmth of the season as you sip on our signature "Mistletoe Magic"</p>
+                <div class="hero-cta">
+                   <button class="nav-cta-btn" id="pop-up-open-two">Make a Reservation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+
+    <!--Specials-->
+    <section class="specials">
+
+        <!--Special One-->
+        <div class="specials-container special-one">
+            <!--Image-->
+            <div class="specials-img"></div>
+            <!--Content-->
+            <div class="specials-content">
+                <h2>Try Our New Jingle Juice Cocktail</h2>
+                <p>Let the festivities flow with a merry blend of cranberry vodka, sparkling pomegranate, and a dash of festive fizz, garnished with a sprig of fresh mint for that extra dash of holiday magic. Jingle all the way to joy with every spirited sip.</p>
+                <div class="special-cta">
+                    <a href="https://static1.squarespace.com/static/652ffa5a2f57f8485b324547/t/6560ff4d7b021336a70cff7e/1700855629336/Xmas+Bar+Menu+CLE.pdf" target="_blank"><button class="nav-cta-btn">View Our Menu</button></a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Special Two-->
+        <div class="specials-container special-two">
+            <!--Image-->
+            <div class="specials-img-two"></div>
+            <!--Content-->
+            <div class="specials-content">
+                <h2>Try Our Christmas Morning Cinnamon Rolls</h2>
+                <p> Dive into layers of warm, gooey goodness infused with aromatic cinnamon and topped with a luscious cream cheese frosting. Elevate your holiday traditions and make Christmas morning memorable with the irresistible joy of our Christmas Morning Cinnamon Rolls.</p>
+                <div class="special-cta">
+                    <a href="https://static1.squarespace.com/static/652ffa5a2f57f8485b324547/t/6560ff4d7b021336a70cff7e/1700855629336/Xmas+Bar+Menu+CLE.pdf" target="_blank"><button class="nav-cta-btn">View Our Menu</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Become a Member-->
+    <section class="become-member">
+
+        <!--Container-->
+        <div class="become-member-background">
+
+            <!--Form-->
+            <div class="become-member-form">
+                <h2>Become a Member</h2>
+                <p>As a member, you'll enjoy VIP access to special events, personalized tasting menus, and priority reservations. Elevate your dining journey with unique members-only perks, curated cocktails, and a welcoming ambiance that makes every visit an unforgettable celebration</p>
+                <form>
+                    <label for="name">Name</label> <br>
+                    <input type="text" name="name" id="name"> <br>
+                    <label for="email" class="form-label">Email</label> <br>
+                    <input type="email" name="email" id="email"> <br>
+                    <input type="submit" value="Request Membership" class="form-btn">
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--Footer-->
+    <footer>
+        <p>XMAS Bar&copy; | All Rights Resered | xmasbarcle.com | Powered by xmasbarcle.com</p>
+    </footer>
+    <section class="pop-up hidden" id="pop-up">
+        <div class="pop-up-container">
+            <img src="/styles/images/exit-menu.png" alt="exit menu" class="pop-up-exit" id="pop-up-exit"/>
+            <h2>Book Your Reservation</h2>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id='name' placeholder="First and Last Name" />
+                <label for="phone">Contact Phone Number</label>
+                <input type="text" id='phone' placeholder="Phone Number" />
+                <label for="email">Contact Email</label>
+                <input type="text" id='email' placeholder="Email" />
+                <input type="submit" />
+            </form>
+        </div>
+    </section>
+    
+    <script src="index.js"></script>
+</body>
+</html>
