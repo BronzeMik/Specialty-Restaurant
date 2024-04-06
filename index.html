@@ -130,7 +130,8 @@
         <div class="pop-up-container">
             <img src="/styles/images/exit-menu.png" alt="exit menu" class="pop-up-exit" id="pop-up-exit"/>
             <h2>Book Your Reservation</h2>
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
                 <label for="name">Full Name</label>
                 <input type="text" id='name' placeholder="First and Last Name" />
                 <label for="phone">Contact Phone Number</label>
