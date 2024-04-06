@@ -132,12 +132,12 @@
             <h2>Book Your Reservation</h2>
             <form name="reservation" method="POST" data-netlify="true">
                 <label for="name">Full Name</label>
-                <input type="text" id='name' placeholder="First and Last Name" />
+                <input type="text" id='name' name='name' placeholder="First and Last Name" />
                 <label for="phone">Contact Phone Number</label>
-                <input type="text" id='phone' placeholder="Phone Number" />
+                <input type="text" name="phone" id='phone' placeholder="Phone Number" />
                 <label for="email">Contact Email</label>
-                <input type="text" id='email' placeholder="Email" />
-                <input type="submit" />
+                <input type="text" name="email" id='email' placeholder="Email" />
+                <input type="submit" value="Book Your Reservation"/>
             </form>
         </div>
     </section>
