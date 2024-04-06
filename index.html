@@ -109,7 +109,8 @@
             <div class="become-member-form">
                 <h2>Become a Member</h2>
                 <p>As a member, you'll enjoy VIP access to special events, personalized tasting menus, and priority reservations. Elevate your dining journey with unique members-only perks, curated cocktails, and a welcoming ambiance that makes every visit an unforgettable celebration</p>
-                <form>
+                <form name='contact' method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
                     <label for="name">Name</label> <br>
                     <input type="text" name="name" id="name"> <br>
                     <label for="email" class="form-label">Email</label> <br>
